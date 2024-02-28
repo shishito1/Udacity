@@ -1,0 +1,44 @@
+# Worst Case Run Time Analysis
+
+## Task 0
+Runtime is O(1) to get the first record of texts and the last record of calls.
+
+* Get first text record: O(1)
+* Get last call record: O(1)
+* Worst case: O(1)
+
+
+## Task 1
+Runtime is O(n) because it is O(n) for the first for loop and O(n) for the second for loop. Their sum is O(2n) but as n gets sufficiently large, the coefficient is insignificant.
+
+* Get unique numbers in texts: O(n)
+* Get unique numbers in calls: O(n)
+* Worst case: O(n)
+
+
+## Task 2
+Iterating through the dictionary is the slowest runtime at O(n).
+
+* Dictionary of duration sum: O(n)
+* Longest duration: O(n)
+* Worst case: O(n)
+
+
+Task 3
+The sorted() runtime of O(nlogn) is the worst case.
+
+* Iteration: O(n)
+* Sort: O(nlogn)
+* get_mobile_area_code: O(n)
+* get_fixed_area_code: O(n)
+* Worst case: O(nlogn)
+
+
+Task 4
+The worst case run time is O(nlogn) for sorted().
+
+* non_telemarketer set: O(n)
+* outging calls set: O(n)
+* telemarketers set: O(n)
+* sorted: O(nlogn)
+* Worst case: O(nlogn)
